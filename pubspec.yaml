@@ -1,0 +1,34 @@
+name: whatsapp_clone
+description: "A new Flutter project."
+
+# Prevent accidental publishing to pub.dev (remove the next line to allow publishing).
+publish_to: 'none'
+
+# Application version details.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Uncomment or add additional dependencies as needed.
+  # firebase_core: ^2.8.0
+  # firebase_auth: ^4.1.3
+  # cloud_firestore: ^4.10.2
+  # provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Specify assets here (ensure they exist in the listed folder).
+  assets:
+    - assets/images/
